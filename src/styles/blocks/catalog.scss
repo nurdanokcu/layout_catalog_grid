@@ -28,5 +28,15 @@
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    
+    /* stylelint-disable */
+    transition:
+      transform $transition-duration,
+      color $transition-duration;
+
+    &:hover {
+      transform: scale(1.2);
+      color: $card-hover-text-color;
+    }
   }
 }
