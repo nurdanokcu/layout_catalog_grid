@@ -23,12 +23,11 @@
     justify-content: center;
     align-items: center;
 
-    box-sizing: border-box;
     width: $cardWidth;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    
+
     /* stylelint-disable */
     transition:
       transform $transition-duration,
